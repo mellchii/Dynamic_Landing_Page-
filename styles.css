@@ -1,0 +1,68 @@
+* {
+    font-family: 'Quicksand', sans-serif;
+    text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+}
+
+.weather-container {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin: 0.5rem;
+}
+
+.icon-temp {
+    display: flex;
+    
+}
+
+
+#date {
+    font-size: 3rem;
+}
+
+#time {
+    font-size: 8rem;
+  }
+
+#temp {
+    font-size: 1.5rem;
+   margin: auto;
+}
+
+#weather {
+    text-transform: capitalize;
+}
+
+#icon {
+    width: 3.5rem;
+}
+
+@media (max-width: 700px) {
+    #time {
+        font-size: 6rem;
+    }
+}
+
+h1 {
+    margin-bottom: 3rem;
+}
+
+h2 {
+margin-bottom: 0.6rem;
+}
+
