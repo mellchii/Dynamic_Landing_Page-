@@ -20,11 +20,11 @@ This requires the application to have access to the user's location.
 ## Contents of Files created
   - `index.html` - landing page HTML template.
   - `main.js` - script run in `index.html` template.
-  - `styles.css` - hosts CSS for html templates.
+  - `styles.css` - hosts CSS for html template.
   - `images` this directory contains images for setting the background for morning, afternoon or night/evening times.
 
 ## How to run app
-Open the `index.html` file is any preferred web browser
+Open the `index.html` file in any preferred web browser
 
 ## Additional Information
 In order to get weather updates, the user would have to use their own personal API key in the `main.js` file.
